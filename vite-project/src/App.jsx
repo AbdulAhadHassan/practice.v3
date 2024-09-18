@@ -5,6 +5,7 @@ import ProductDetails from './pages/ProductDetails';
 import Home from './pages/Home';
 import Navbar from './pages/Navbar';
 import ThemeContextProvider from './context/themeContext';
+import TodoList from './pages/TodoApp';
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
               <Route path='/' element={<Home/>}/>
               <Route path='/Products' element={<Products/>}/>
               <Route path='/Products/:id' element={<ProductDetails/>}/>
+              <Route path='/TodoApp' element={<TodoList/>}/>
               
               
             </Routes>

@@ -31,7 +31,7 @@ const {theme, setTheme} = useContext(ThemeContext)
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <Link to="/" className="mr-5  hover:text-gray-700">Home</Link>
           <Link to="/Products" className="mr-5 hover:text-gray-700">Product</Link>
-          <a className="mr-5 hover:text-gray-700">Third Link</a>
+          <Link to="/TodoApp" className="mr-5 hover:text-gray-700">Todo App</Link>
           <a className="mr-5 hover:text-gray-700">Fourth Link</a>
           
         </nav>
